@@ -1,5 +1,14 @@
 
 
+
+
+
+
+
+if (typeof makeRunOn === 'undefined') {
+  makeRunOn = undefined;
+}
+
 if (typeof stringOut === 'undefined') {
   stringOut = undefined;
 }
@@ -25,6 +34,7 @@ if (typeof Faqtory === 'undefined') {
 }
 
 module.exports = {
+  makeRunOn,
   stringOut,
   nightOwls,
   totalScore,
